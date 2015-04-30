@@ -334,7 +334,7 @@ let g:colors_name="lucius"
 
 if s:style == "light"
     hi NonText      guifg=#afafd7
-    hi SpecialKey   guifg=#afd7af
+    hi SpecialKey   guifg=#ff8700
     if s:contrast == "low"
         hi Comment      guifg=#9e9e9e
         hi Conceal      guifg=#9e9e9e
@@ -360,7 +360,7 @@ if s:style == "light"
     endif
 else
     hi NonText      guifg=#5f5f87
-    hi SpecialKey   guifg=#5f875f
+    hi SpecialKey   guifg=#ff8700
     if s:contrast == "low"
         hi Comment      guifg=#6c6c6c
         hi Conceal      guifg=#6c6c6c
@@ -409,8 +409,8 @@ hi CursorLine   guifg=NONE
 hi Visual       guifg=NONE
 hi VisualNOS    guifg=fg        guibg=NONE
 if s:style == "light"
-    hi CursorColumn                 guibg=#dadada
-    hi CursorLine                   guibg=#dadada
+    hi CursorColumn                 guibg=#eeeeee
+    hi CursorLine                   guibg=#eeeeee
     hi IncSearch    guifg=fg        guibg=#5fd7d7
     hi MatchParen   guifg=NONE      guibg=#5fd7d7
     hi Search       guifg=fg        guibg=#ffaf00
@@ -508,11 +508,11 @@ hi TabLine      guifg=bg
 hi TabLineSel   guifg=fg
 hi WildMenu     guifg=fg
 if s:style == "light"
-    hi ColorColumn                  guibg=#e4e4e4
-    hi CursorLineNr guifg=#626262   guibg=#dadada
+    hi ColorColumn                  guibg=#eeeeee
+    hi CursorLineNr guifg=#626262   guibg=#eeeeee
     hi FoldColumn                   guibg=#bcbcbc
     hi Folded                       guibg=#bcbcbc
-    hi LineNr       guifg=#9e9e9e   guibg=#dadada
+    hi LineNr       guifg=#9e9e9e   guibg=#e4e4e4
     hi PmenuSel                     guibg=#afd7ff
     hi SignColumn                   guibg=#d0d0d0
     hi StatusLineNC guifg=#dadada
